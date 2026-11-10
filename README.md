@@ -63,4 +63,4 @@ Add a license here (for example, MIT) once you confirm you have rights to the co
 
 ## Author
 
-**Your Name** – [GitHub](https://github.com/engrahmadraza) · [LinkedIn](https://linkedin.com/in/ahmad-raza-194061379)
+**AHMAD RAZA** – [GitHub](https://github.com/engrahmadraza) · [LinkedIn](https://linkedin.com/in/ahmad-raza-194061379)
