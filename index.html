@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>bootstrap one</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-xl fixed-top bg-white shadow"
+      style="height: 90px;"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/logo.jpg" id="logo-one"/>
+          <img src="images/logo2.jpg" id="logo-two"/>
+        </a>
+
+        <!-- Menu (visible only xl and above) -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right Side -->
+        <div class="nav-right">
+          <button type="button" class="btn btn-primary" id="nav-btn">
+            Contact Us
+          </button>
+
+          <button
+            class="navbar-toggler nav-pad border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+      </div>
+    </nav>
+    <section>
+        <div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="offcanvasRight"
+    aria-labelledby="offcanvasRightLabel">
+
+    <div class="offcanvas-header d-flex justify-content-between" style="margin-top: 20px;">
+        <div><img src="images/logo3.png" style="max-width: 89.94px; max-height: 90px;"></div>
+        <div>
+            <button
+            type="button"
+            class="navcanvasbtn"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="offcanvas-body" style="padding: 0px 16px;">
+
+        <ul class="navbar-nav ">
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item ms-3">
+                <button class="btn btn-primary " style="height: 48.8px; width: 145px;">
+                    Contact Us
+                </button>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+    </section>
+    <!-- MUI BOX -->
+
+    <div class="container">
+      <div class="" id="mui-row">
+        <div
+          class="col1 mui2 d-flex flex-column justify-content-center "
+        >
+          <h1>We Care Your any IT Solution</h1>
+          <h4 style="margin-bottom: 0px;">
+            Proactively coordinate quality quality vectors vis-a-vis supply
+            chains. Quickly engage client-centric web services.
+          </h4>
+        </div>
+        <div class="col-xl-6  col2 mui-col text-center">
+          <img src="images/mui-img.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- CHOOSE US  -->
+    <div class="container choose">
+      <div class="row d-flex choose-flex">
+        <div class="col choose-left-div">
+          <!-- LEFT  -->
+          <img src="images/choose-img.jpg" id="choose-left" />
+        </div>
+        <div class="col choose-right-div">
+          <!-- RIGHT  -->
+          <div id="choose-top">
+            <h4>Why Choose Us</h4>
+            <h2>We are working with 15 years experience</h2>
+            <h6>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour
+            </h6>
+          </div>
+          <div class="d-flex choose-padd">
+            <div class="left d-flex align-items-center">
+              <div
+                class="d-flex justify-content-center align-items-center rounded-circle"
+                id="left-img"
+              >
+                <img src="images/left.png" alt="" />
+              </div>
+              <div id="left-h5" class="d-flex align-items-center">
+                <h5>Expert around the world</h5>
+              </div>
+            </div>
+            <div class="right d-flex align-items-center">
+              <div
+                class="d-flex justify-content-center align-items-center rounded-circle"
+                id="right-img"
+              >
+                <img src="images/right.png" alt="" />
+              </div>
+              <div id="right-h5" class="d-flex align-items-center">
+                <h5>Best Practice For Business</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid choose-grid">
+            <!-- ROW1 -->
+            <div class="row">
+              <div class="col">
+                <div class="form-check">
+                  <input
+                    class="form-check-input rounded-circle"
+                    type="checkbox"
+                    value=""
+                    id="check"
+                    checked
+                  />
+                  <label class="form-check-label label-txt" for="check">
+                    Digital Conference
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-check">
+                  <input
+                    class="form-check-input rounded-circle"
+                    type="checkbox"
+                    value=""
+                    id="check"
+                    checked
+                  />
+                  <label class="form-check-label label-txt" for="check">
+                    Great Speakers
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- ROW2 -->
+            <div class="row">
+              <div class="col">
+                <div class="form-check">
+                  <input
+                    class="form-check-input rounded-circle"
+                    type="checkbox"
+                    value=""
+                    id="check"
+                    checked
+                  />
+                  <label class="form-check-label label-txt" for="check">
+                    Event Management
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-check">
+                  <input
+                    class="form-check-input rounded-circle"
+                    type="checkbox"
+                    value=""
+                    id="check"
+                    checked
+                  />
+                  <label class="form-check-label label-txt" for="check">
+                    Have Fun on Event
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- ROW3 -->
+            <div class="row">
+              <div class="col">
+                <div class="form-check">
+                  <input
+                    class="form-check-input rounded-circle"
+                    type="checkbox"
+                    value=""
+                    id="check"
+                    checked
+                  />
+                  <label class="form-check-label label-txt" for="check">
+                    Sales compliance
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-check">
+                  <input
+                    class="form-check-input rounded-circle"
+                    type="checkbox"
+                    value=""
+                    id="check"
+                    checked
+                  />
+                  <label class="form-check-label label-txt rem-padd" for="check">
+                    Showcasing success
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-primary learn-btn"
+              id="choose-btn"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tech bar -->
+    <!-- tech bar -->
+<div class="technology">
+  <div class="container-fluid">
+
+    <!-- Heading Text -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-12 martech">
+        <div class="tech-txt">
+          <h1>We Build any Kind Of Technology</h1>
+          <h6>
+            Credibly grow premier ideas rather than bricks-and-clicks strategic
+            theme areas distributed for stand-alone web-readiness.
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="row justify-content-center mb-4" id="tech-btns">
+      <div class="col-auto tbtn">
+        <button data-bs-target="#myCarousel" data-bs-slide-to="0">
+          <div class="d-flex btn-mar">
+            <div class="tech-icon">
+              <i class="fa-solid fa-desktop tech-btn-icon"></i>
+            </div>
+            <div><h5 id="tech-btn-txt">WebDesign</h5></div>
+          </div>
+        </button>
+      </div>
+      <div class="col-auto tbtn">
+        <button class="techbtn2" data-bs-target="#myCarousel" data-bs-slide-to="1">
+          <div class="d-flex btn-mar1">
+            <div class="tech-icon">
+              <i class="fa-solid fa-mobile-screen tech-btn-icon"></i>
+            </div>
+            <div><h5 id="tech-btn-txt">AppDevelopment</h5></div>
+          </div>
+        </button>
+      </div>
+      <div class="col-auto tbtn">
+        <button data-bs-target="#myCarousel" data-bs-slide-to="2">
+          <div class="d-flex btn-mar">
+            <div class="tech-icon">
+              <i class="fa-solid fa-grip-lines-vertical tech-btn-icon"></i>
+            </div>
+            <div><h5 id="tech-btn-txt">UX/UI Design</h5></div>
+          </div>
+        </button>
+      </div>
+    </div>
+</div>
+<div class="contain-pad">
+    <div class="container-sm">
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row align-items-center pb-4 pb-sm-0 set-flex">
+            <div class="col tech-left text-center">
+              <img id="slide1img" src="images/slide1.png" class="img-fluid" />
+            </div>
+            <div class="col tech-right">
+              <h3>We are working with 15 years experience</h3>
+              <h5>
+                Continually network effective bandwidth whereas
+                goal-oriented schemas. Intrinsicly incentivize corporate
+                synergy with accurate task bricks-and-clicks leadership skills.
+              </h5>
+              <div class="container-fluid ticks">
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Digital Conference</h6></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Great Speak</h6></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Event Management</h6></div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2 know">
+                <div ><h6 class="m-0 ">Know More About Us</h6></div>
+                <div><i class="fa-solid fa-arrow-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+         <div class="row align-items-center pb-4 pb-sm-0 set-flex">
+            <div class="col tech-left text-center">
+              <img id="slide2img" src="images/slide2.png" class="img-fluid" />
+            </div>
+            <div class="col tech-right">
+              <h3>Automation Power</h3>
+              <h5>
+                Continually network effective bandwidth whereas
+                goal-oriented schemas. Intrinsicly incentivize corporate
+                synergy with accurate task bricks-and-clicks leadership skills.
+              </h5>
+              <div class="container-fluid ticks">
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Digital Conference</h6></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Great Speak</h6></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Event Management</h6></div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2 know">
+                <div ><h6 class="m-0 ">Know More About Us</h6></div>
+                <div><i class="fa-solid fa-arrow-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="row align-items-center pb-4 pb-sm-0 set-flex">
+            <div class="col tech-left text-center">
+              <img id="slide3img" src="images/slide3.png" class="img-fluid" />
+            </div>
+            <div class="col tech-right">
+              <h3>Advanced Technology</h3>
+              <h5>
+                Continually network effective bandwidth whereas
+                goal-oriented schemas. Intrinsicly incentivize corporate
+                synergy with accurate task bricks-and-clicks leadership skills.
+              </h5>
+              <div class="container-fluid ticks">
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Digital Conference</h6></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Great Speak</h6></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col d-flex gap-2 tick">
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <div><h6 class="m-0">Event Management</h6></div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2 know">
+                <div ><h6 class="m-0">Know More About Us</h6></div>
+                <div><i class="fa-solid fa-arrow-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    <!-- end carousel -->
+
+  </div>
+</div>
+    <!-- services bar -->
+    <div class="services">
+      <div class="services-top-txt">
+        <h2>Services We Provide</h2>
+        <h6>
+          Credibly grow premier ideas rather than bricks-and-clicks strategic
+          theme areas distributed for stand-alone web-readiness.
+        </h6>
+      </div>
+      <div class="container services-grid">
+        <!-- 1st row -->
+        <div class="row sgriditem1">
+          <div class="col-xl-4 col-lg-6 col-md-6 sgriditem">
+            <img src="images/sgrid1.png" />
+            <h4>Web Development</h4>
+            <h6>
+              Holisticly morph distinctive methodologies and vertical
+              e-tailers. Rapidiously grow customized data.
+            </h6>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 sgriditem">
+            <img src="images/sgrid2.png" />
+            <h4>App Development</h4>
+            <h6>
+              Holisticly morph distinctive methodologies and vertical
+              e-tailers. Rapidiously grow customized data.
+            </h6>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 sgriditem">
+            <img src="images/sgrid3.png" />
+            <h4>Data Security</h4>
+            <h6>
+              Holisticly morph distinctive methodologies and vertical
+              e-tailers. Rapidiously grow customized data.
+            </h6>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 sgriditem">
+            <img src="images/sgrid4.png" />
+            <h4>UI/UX Design</h4>
+            <h6>
+              Holisticly morph distinctive methodologies and vertical
+              e-tailers. Rapidiously grow customized data.
+            </h6>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 sgriditem">
+            <img src="images/sgrid5.png" />
+            <h4>Graphics Design</h4>
+            <h6>
+              Holisticly morph distinctive methodologies and vertical
+              e-tailers. Rapidiously grow customized data.
+            </h6>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 sgriditem">
+            <img src="images/sgrid6.png" />
+            <h4>Digital Marketing</h4>
+            <h6>
+              Holisticly morph distinctive methodologies and vertical
+              e-tailers. Rapidiously grow customized data.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Bar -->
+
+    <section class="portf">
+      <div class="portf-txt">
+        <h2>Our Portfolio</h2>
+        <h6>
+          Credibly grow premier ideas rather than bricks-and-clicks strategic
+          theme areas distributed for stand-alone web-readiness.
+        </h6>
+      </div>
+      <div class="container portf-items">
+        <!-- Row 1 -->
+        <div class="row row1">
+          <div class="col-lg col-md-12 peff pitem1">
+            <div class="overlay"></div>
+            <div class="pitemtxt">
+              <h4>Website Design Project</h4>
+              <h6>Design, Web</h6>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-12 peff pitem2">
+            <div class="overlay"></div>
+            <div class="pitemtxt">
+              <h4>Leafery Branding</h4>
+              <h6>Branding,Logo</h6>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-12 peff pitem3">
+            <div class="overlay"></div>
+            <div class="pitemtxt">
+              <h4>Information Architencure</h4>
+              <h6>Branding,Logo</h6>
+            </div>
+          </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+          <div class="col-lg col-md-12 peff pitem4">
+            <div class="overlay"></div>
+            <div class="pitemtxt">
+              <h4>User Interface Design</h4>
+              <h6>Design</h6>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-12 peff pitem5">
+            <div class="overlay"></div>
+            <div class="pitemtxt">
+              <h4>Infromation Architencure</h4>
+              <h6>Branding,Logo</h6>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-12 peff pitem6">
+            <div class="overlay"></div>
+            <div class="pitemtxt">
+              <h4>Branding & Corporate Identity</h4>
+              <h6>Branding</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Trust Bar -->
+    <section class="trustbar">
+      <div class="trust-txt">
+        <h2>Over 500+ Companies Trusted Us</h2>
+        <h6>Over 500+ Companies Trusted Us</h6>
+      </div>
+      <div class="container ">
+        <div class="row my-row " >
+          <div class="col-xl col-lg-6 col-md-6 brand b1" >
+            <img src="images/co1.png" alt="" />
+          </div>
+
+          <div class="col-xl col-lg-6 col-md-6 brand b2">
+            <img src="images/co2.png" alt="" />
+          </div>
+
+          <div class="col-xl col-lg-6 col-md-6 brand b3">
+            <img src="images/co3.png" alt="" />
+          </div>
+
+          <div class="col-xl col-lg-6 col-md-6 brand b4">
+            <img src="images/co4.png" alt="" />
+          </div>
+
+          <div class="col-xl col-lg-6 col-md-6 brand b5">
+            <img src="images/co5.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Testimonial Bar -->
+
+    <section class="testbar">
+      <div class="testtxt">
+        <h4>Testimonial</h4>
+        <h2>What's Clients Say</h2>
+        <h6>
+          Credibly grow premier ideas rather than bricks-and-clicks strategic
+          theme areas distributed for stand-alone web-readiness.
+        </h6>
+      </div>
+      <div class="container">
+        <div class="row testi">
+          <!-- col 1 -->
+          <div class="col-lg-4 col-md-12 tests testscol1">
+            <div class="inner">
+              <h5>
+                Pellentesque nec nam aliquam sem. Ultricies lacus sed turpis
+                tincidunt id aliquet risus. Consequat nisl vel pretium lectus
+                quam id.
+              </h5>
+              <div class="d-flex alex gap-3">
+                <div class="aleximg">
+                  <img src="images/aleximg.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column alexdata">
+                  <div class="alexname"><h6>Alex Loverty</h6></div>
+                  <div class="alexdes"><h6>Product Designer</h6></div>
+                  <div class="rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- col 2 -->
+          <div class="col-lg-4 col-md-12 tests">
+            <div class="inner">
+              <h5>
+                Pellentesque nec nam aliquam sem. Ultricies lacus sed turpis
+                tincidunt id aliquet risus. Consequat nisl vel pretium lectus
+                quam id.
+              </h5>
+              <div class="d-flex alex gap-3">
+                <div class="aleximg">
+                  <img src="images/aleximg.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column alexdata">
+                  <div class="alexname"><h6>Alex Loverty</h6></div>
+                  <div class="alexdes"><h6>Product Designer</h6></div>
+                  <div class="rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- col 3 -->
+          <div class="col-lg-4 col-md-12 tests alexmar">
+            <div class="inner">
+              <h5>
+                Pellentesque nec nam aliquam sem. Ultricies lacus sed turpis
+                tincidunt id aliquet risus. Consequat nisl vel pretium lectus
+                quam id.
+              </h5>
+              <div class="d-flex alex gap-3">
+                <div class="aleximg">
+                  <img src="images/aleximg.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column alexdata">
+                  <div class="alexname"><h6>Alex Loverty</h6></div>
+                  <div class="alexdes"><h6>Product Designer</h6></div>
+                  <div class="rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news section -->
+
+    <section class="news">
+      <div class="container newsbox">
+        <div class="d-flex justify-content-between flex-md-column flex-sm-column flex-column flex-lg-column news-top">
+          <div class="ntl">
+            <h4>Blog</h4>
+          </div>
+          <div class="d-flex justify-content-between ntr">
+            <div><h2>Check our Latest News and Update</h2></div>
+            <div><button type="button" class="btn btn-primary">
+              View All Article
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- news cards -->
+
+      <div class="container news-cards">
+        <div class="row g-3">
+          <!-- card 1 -->
+          <div class="col-xl-4 col-lg-6 newscard ncard1 grid-padd ">
+            <div class="news-img">
+              <img src="images/news1.jpg" alt="" />
+            </div>
+
+            <div class="news-txt">
+              <span class="badge badge1">Design</span>
+              <h4 id="newsh4">
+                Do you really understand the concept of product value?
+              </h4>
+              <h6 id="newsh6">
+                Society is fragmenting into two parallel realities. In one
+                reality, you have infinite upside and ...
+              </h6>
+              <div class="alexander d-flex gap-3">
+                <div class="alex-img">
+                  <img src="images/aleximg.jpg" alt="" />
+                </div>
+                <div class="alex-info">
+                  <h6 id="alexname2">Alex Loverty</h6>
+                  <h6 id="alexdate">April 24,2022</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="col-xl-4 col-lg-6 newscard ncard2 grid-padd">
+            <div class="news-img">
+              <img src="images/news2.jpg" alt="" />
+            </div>
+
+            <div class="news-txt">
+              <span class="badge badge2">Customer</span>
+              <h4 id="newsh4">
+                Why communities help you build better products
+              </h4>
+              <h6 id="newsh6">
+                Society is fragmenting into two parallel realities. In one
+                reality, you have infinite upside and ...
+              </h6>
+              <div class="alexander d-flex gap-3">
+                <div class="alex-img">
+                  <img src="images/aleximg.jpg" alt="" />
+                </div>
+                <div class="alex-info">
+                  <h6 id="alexname2">Alex Loverty</h6>
+                  <h6 id="alexdate">April 24,2022</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="col-xl-4 col-lg-6 newscard ncard3 grid-padd ">
+            <div class="news-img">
+              <img src="images/news3.jpg " alt="" />
+            </div>
+
+            <div class="news-txt">
+              <span class="badge badge3">Development</span>
+              <h4 id="newsh4">
+                Why communities help you build better products
+              </h4>
+              <h6 id="newsh6">
+                Society is fragmenting into two parallel realities. In one
+                reality, you have infinite upside and ...
+              </h6>
+              <div class="alexander d-flex gap-3">
+                <div class="alex-img">
+                  <img src="images/aleximg.jpg" alt="" />
+                </div>
+                <div class="alex-info">
+                  <h6 id="alexname2">Alex Loverty</h6>
+                  <h6 id="alexdate">April 24,2022</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pages bar -->
+
+    <section class="pages-bar">
+      <div class="container d-flex justify-content-between pages-flex">
+        <div class="leftpage">
+          <div class="pagesimg"><img src="images/logo.jpg" alt="" /></div>
+          <h6>
+            Our latest news, articles, and resources, we will sent <br />
+            to your inbox weekly.
+          </h6>
+          <div class="pages-form d-flex gap-2">
+            <div><input type="text" placeholder="Enter your email" /></div>
+            <div><button type="button" class="btn btn-primary">Subscribe</button></div>
+          </div>
+          <h5>10/10 Overall rating</h5>
+          <div class="rating pagerate">
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+          </div>
+        </div>
+        <div class="d-flex rightpage">
+          <div class="ppages">
+            <h5 style="margin-top: 0px;">Primary Pages</h5>
+            <h6>Home</h6>
+            <h6>About Us</h6>
+            <h6>Services</h6>
+            <h6>Career</h6>
+            <h6>Integrations</h6>
+            <h6>Integration Single</h6>
+          </div>
+          <div class="ppages">
+            <h5>Pages</h5>
+            <h6>Pricing</h6>
+            <h6>News</h6>
+            <h6>News Details</h6>
+            <h6>Contact</h6>
+            <h6>Career Single</h6>
+            <h6>Services Single</h6>
+          </div>
+          <div class="ppages">
+            <h5>Template</h5>
+            <h6>Contact</h6>
+            <h6>Support</h6>
+            <h6>Support Single</h6>
+            <h6>Our Team</h6>
+            <h6>User Login</h6>
+            <h6>Career Single</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Footer -->
+
+    <footer class="foot">
+      <div class="container">
+        <div class="d-flex justify-content-between footitem flex-md-row flex-xs-column">
+          <div class="fleftitem">
+            <h6 class="d-flex justify-content-center">
+              © 2022 Technoventive Rights Reserved.
+            </h6>
+          </div>
+          <div
+            class="d-flex gap-1 align-items-center justify-content-lg-center justify-content-md-start justify-content-sm-start frightitem"
+          >
+            <button><i class="fa-brands fa-square-facebook"></i></button>
+            <button><i class="fa-brands fa-instagram"></i></button>
+            <button><i class="fa-brands fa-github"></i></button>
+            <button><i class="fa-brands fa-youtube youtube"></i></button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
